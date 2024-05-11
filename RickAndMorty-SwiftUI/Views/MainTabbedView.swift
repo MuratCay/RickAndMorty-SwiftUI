@@ -17,14 +17,14 @@ struct MainTabbedView: View {
             TabView(selection: $selectedTab) {
                 HomeScreen()
                     .tag(0)
-
+                
                 FavouritesScreen()
                     .tag(1)
-
+                
                 ProfileScreen()
                     .tag(2)
             }
-
+            
             ZStack{
                 HStack{
                     ForEach((TabbedItems.allCases), id: \.self){ item in

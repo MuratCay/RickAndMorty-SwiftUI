@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeScreen: View {
     var body: some View {
         VStack {
-            Text("Home")
+            Text(NSLocalizedString("welcome_message", comment: ""))
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

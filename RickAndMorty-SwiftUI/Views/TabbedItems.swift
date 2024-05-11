@@ -4,6 +4,7 @@
 //
 //  Created by Murat on 11.05.2024.
 //
+import Foundation
 
 enum TabbedItems: Int, CaseIterable{
     case home = 0
@@ -13,11 +14,11 @@ enum TabbedItems: Int, CaseIterable{
     var title: String{
         switch self {
         case .home:
-            return "Home"
+            return NSLocalizedString("Home", comment: "")
         case .favorite:
-            return "Favorite"
+            return NSLocalizedString("Favourite", comment: "")
         case .profile:
-            return "Profile"
+            return NSLocalizedString("Profile", comment: "")
         }
     }
     
