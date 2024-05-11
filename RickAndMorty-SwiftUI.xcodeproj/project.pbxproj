@@ -15,6 +15,8 @@
 		FB57FB862BEFEAF400E2F51A /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57FB852BEFEAF400E2F51A /* ProfileScreen.swift */; };
 		FB57FB882BEFEB6900E2F51A /* FavouritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57FB872BEFEB6900E2F51A /* FavouritesScreen.swift */; };
 		FB57FB8A2BEFEC4600E2F51A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57FB892BEFEC4600E2F51A /* HomeScreen.swift */; };
+		FB57FB8C2BEFEF3200E2F51A /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57FB8B2BEFEF3200E2F51A /* TabbedItems.swift */; };
+		FB57FB8E2BEFEF5C00E2F51A /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57FB8D2BEFEF5C00E2F51A /* MainTabbedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		FB57FB852BEFEAF400E2F51A /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		FB57FB872BEFEB6900E2F51A /* FavouritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesScreen.swift; sourceTree = "<group>"; };
 		FB57FB892BEFEC4600E2F51A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FB57FB8B2BEFEF3200E2F51A /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
+		FB57FB8D2BEFEF5C00E2F51A /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		FB57FB822BEFEA4200E2F51A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB57FB8B2BEFEF3200E2F51A /* TabbedItems.swift */,
+				FB57FB8D2BEFEF5C00E2F51A /* MainTabbedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,10 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB57FB712BEFE8EB00E2F51A /* ContentView.swift in Sources */,
+				FB57FB8E2BEFEF5C00E2F51A /* MainTabbedView.swift in Sources */,
 				FB57FB732BEFE8EB00E2F51A /* Item.swift in Sources */,
 				FB57FB8A2BEFEC4600E2F51A /* HomeScreen.swift in Sources */,
 				FB57FB882BEFEB6900E2F51A /* FavouritesScreen.swift in Sources */,
 				FB57FB6F2BEFE8EB00E2F51A /* RickAndMorty_SwiftUIApp.swift in Sources */,
+				FB57FB8C2BEFEF3200E2F51A /* TabbedItems.swift in Sources */,
 				FB57FB862BEFEAF400E2F51A /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
