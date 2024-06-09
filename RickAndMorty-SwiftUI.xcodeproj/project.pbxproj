@@ -46,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB3355062BF0A617007B67E3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB57FB8B2BEFEF3200E2F51A /* TabbedItems.swift */,
+				FB57FB8D2BEFEF5C00E2F51A /* MainTabbedView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FB57FB622BEFE8EB00E2F51A = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +74,7 @@
 		FB57FB6D2BEFE8EB00E2F51A /* RickAndMorty-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FB57FB822BEFEA4200E2F51A /* Views */,
+				FB57FB822BEFEA4200E2F51A /* Components */,
 				FB57FB812BEFEA2400E2F51A /* Features */,
 				FB57FB6E2BEFE8EB00E2F51A /* RickAndMorty_SwiftUIApp.swift */,
 				FB57FB702BEFE8EB00E2F51A /* ContentView.swift */,
@@ -121,13 +130,12 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
-		FB57FB822BEFEA4200E2F51A /* Views */ = {
+		FB57FB822BEFEA4200E2F51A /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FB57FB8B2BEFEF3200E2F51A /* TabbedItems.swift */,
-				FB57FB8D2BEFEF5C00E2F51A /* MainTabbedView.swift */,
+				FB3355062BF0A617007B67E3 /* TabBar */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		FB57FB832BEFEA6C00E2F51A /* Onboarding */ = {
